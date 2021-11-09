@@ -45,7 +45,7 @@ public class PersonPersistenceAdapterTests {
     @Test
     @Sql({"createTable.sql","PersonPersistenceAdapterTests.sql"})
     void getAllPersons(){
-        //conteneur.start();
+        conteneur.start();
         personPersistenceAdapter = new PersonPersistenceAdapter(personRepository);
         Map<String, Object> map = new HashMap<>();
         ArrayList<Person> pers;
