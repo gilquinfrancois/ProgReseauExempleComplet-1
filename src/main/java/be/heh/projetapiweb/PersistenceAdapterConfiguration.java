@@ -14,5 +14,5 @@ public class PersistenceAdapterConfiguration {
     @Bean
     AllPersonUseCase getAllPersonUseCase(){
         return new PersonPersistenceAdapter(personRepository);
-       }
+    }
 }

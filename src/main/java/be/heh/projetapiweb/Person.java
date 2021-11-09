@@ -23,7 +23,7 @@ public class Person {
 
     public int getBirthYear() {
         int annee = LocalDate.now().getYear() - this.age;
-        return annee ;
+        return annee;
     }
 
 }

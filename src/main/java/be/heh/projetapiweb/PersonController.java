@@ -18,8 +18,8 @@ public class PersonController {
     private final AllPersonUseCase allPersonUseCase;
 
     @GetMapping("/persons")
-        public Map<String, Object> getPersons() {
-            return allPersonUseCase.getPersons();
+    public Map<String, Object> getPersons() {
+        return allPersonUseCase.getPersons();
     }
 
 }
